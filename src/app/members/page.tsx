@@ -15,7 +15,7 @@ export default function MembersPage() {
         variant="bordered"
         startContent={<FaHome size={20} />}
       >
-        Go back Home
+        Go back Home edite
       </Button>
     </div>
   );
