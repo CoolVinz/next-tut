@@ -15,7 +15,7 @@ export default function MembersPage() {
         variant="bordered"
         startContent={<FaHome size={20} />}
       >
-        Go back Home edite test webhook V2
+        Go back Home edite test webhook V3 direct from github
       </Button>
     </div>
   );
