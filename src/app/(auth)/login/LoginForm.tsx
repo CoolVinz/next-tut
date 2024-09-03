@@ -46,7 +46,12 @@ export default function LoginForm() {
               isInvalid={!!errors.password}
               errorMessage={errors.password?.message as string}
             />
-            <Button fullWidth color="warning" type="submit">
+            <Button
+              isDisabled={!isValid}
+              fullWidth
+              color="warning"
+              type="submit"
+            >
               Login
             </Button>
           </div>
